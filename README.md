@@ -1,5 +1,9 @@
 # NodeToDo-App - Task Management Application
 
+[![Actions Status](https://github.com/ariesjia/vue-composition-test-utils/workflows/Node%20CI/badge.svg)](https://github.com/itslanaa/NodeToDo-App/actions)
+[![NPM](https://img.shields.io/npm/v/vue-composition-test-utils.svg)](https://www.npmjs.com/package/vue-composition-test-utils)
+[![license](https://badgen.net/badge/license/MIT/blue)](https://github.com/itslanaa/NodeToDo-App/blob/main/LICENSE)
+
 NodeToDo-App is a simple task management application that allows users to create, edit, and delete task lists.
 
 ## How to Use
