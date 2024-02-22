@@ -3,8 +3,15 @@ const router = express.Router();
 
 // Task Controller
 const taskController = require('../controllers/taskController');
-
-// Home route
+/**
+ * @swagger
+ * /:
+ *   get:
+ *     description: Returns all tasks
+ *     responses:
+ *       200:
+ *         description: An array of tasks
+ */
 router.get('/', taskController.getAllTasks);
 
 // Add task route
