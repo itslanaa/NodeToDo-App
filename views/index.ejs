@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NodeToDo - Task Management App</title>
+  <link rel="stylesheet" href="/styles/main.css">
+</head>
+<body>
+  <h1>NodeToDo - Task Management App</h1>
+
+  <form action="/add-task" method="post">
+    <label for="task">New Task:</label>
+    <input type="text" id="task" name="task" required>
+    <button type="submit">Add Task</button>
+  </form>
+
+  <ul>
+    <% tasks.forEach((task, index) => { %>
+      <li>
+        <%= task %>
+        <form action="/update-task/<%= index %>" method="post">
+          <label for="updatedTask">Update Task:</label>
+          <input type="text" id="updatedTask" name="updatedTask" required>
+          <button type="submit">Update</button>
+        </form>
+        <a href="/delete-task/<%= index %>">Delete</a>
+      </li>
+    <% }); %>
+  </ul>
+</body>
+</html>
