@@ -4,12 +4,14 @@ const tasks = []; // Temporary in-memory storage
 exports.getAllTasks = (req, res) => {
   try {
     // ... (existing code)
+    console.log('Tasks retrieved successfully');
     res.status(200).json({ tasks });
   } catch (error) {
     console.error('Error:', error.message);
     res.status(500).json({ error: 'Internal Server Error' });
   }
 };
+
 
 // Add a new task
 exports.addTask = (req, res) => {
