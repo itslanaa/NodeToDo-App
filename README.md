@@ -1,6 +1,6 @@
-# NodeToDo - Task Management Application
+# NodeToDo-App - Task Management Application
 
-NodeToDo is a simple task management application that allows users to create, edit, and delete task lists.
+NodeToDo-App is a simple task management application that allows users to create, edit, and delete task lists.
 
 ## How to Use
 
