@@ -1,5 +1,5 @@
 {
-  "name": "nodetodo-app",
+  "name": "@itslanaa/nodetodo-app",
   "version": "1.1.4",
   "scripts": {
     "dev": "next dev",
